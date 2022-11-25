@@ -5,7 +5,7 @@
 }
 
 body {
-  background:linear-gradient(to right, aqua, #1aab1a);
+  background:linear-gradient(to right,rgb(232, 48, 232), pink);
 }
 
 .outline {
@@ -25,7 +25,7 @@ body {
   border-radius: 10px;
 }
 
-.outline .container > header {
+header {
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -45,6 +45,11 @@ body {
   margin: 20px;
 }
 
+.outline .container .inner .wrong-fields {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
 .outline .container .inner .fields >label {
   font-size: 20px;
   font-family: 'Manrope', sans-serif;
